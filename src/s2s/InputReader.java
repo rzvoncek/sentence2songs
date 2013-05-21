@@ -60,6 +60,7 @@ public class InputReader extends Thread {
 	 */
 	public static String  sanitize(String sentence) {
 		return sentence
+				.toLowerCase()
 				.replaceAll(",","")
 				.replaceAll("'", "'")
 				.replaceAll("`", "'")
@@ -76,7 +77,7 @@ public class InputReader extends Thread {
 
 		StringBuffer result = new StringBuffer();
 
-		List<Track> tracks = splitter.splitToTracks(sentence.toLowerCase());
+		List<Track> tracks = splitter.splitToTracks(sentence);
 
 		for ( Track t : tracks ) {
 			result.append( String.format("\t%36s ",t.getUrl()) );
