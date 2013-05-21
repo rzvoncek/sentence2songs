@@ -23,7 +23,7 @@ public class Main {
 
 		SentenceSplitter sentenceSplitter = new SentenceSplitter();
 		
-		new InputReader(sentenceSplitter).start();
+		new InputReader(sentenceSplitter).run();
 		
 	}
 

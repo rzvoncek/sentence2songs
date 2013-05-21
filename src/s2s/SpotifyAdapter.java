@@ -131,5 +131,9 @@ public class SpotifyAdapter {
 	synchronized public void setLastRequestTime(long tNow) {
 		this.tLastRequest = tNow;
 	}
-
+	
+	public void shutDown() {
+		queryExecExecutor.shutdown();
+	}
+	
 }

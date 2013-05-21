@@ -23,7 +23,6 @@ public class InputReader extends Thread {
 		this.splitter = splitter;
 	}
 	
-	@Override
 	public void run() {
 		
 		String sentence = "";
@@ -36,11 +35,18 @@ public class InputReader extends Thread {
   					System.out.println(splitToTracks(sentence));
   				} catch (Exception e) {
   					// ignored...
+  					return;
   				}
 			}
 
 		} catch (IOException ioe) {
 			return;
+		}
+		
+		// shut down worker threads from the splitter
+		finally {
+			// ignored...
+			splitter.shutDown();
 		}
 		
 		return;

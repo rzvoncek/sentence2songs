@@ -85,4 +85,8 @@ public class SentenceSplitter {
 		
 	}
 	
+	public void shutDown() {
+		spotify.shutDown();
+	}
+	
 }
