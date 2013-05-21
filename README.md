@@ -3,7 +3,7 @@
 
 This utility reads lines from standard input and attempts 
 to compose them out of song titles pulled from Spotify database
-(http://http://developer.spotify.com/technologies/web-api/).
+(http://developer.spotify.com/technologies/web-api/).
  
 Main features:
 	- parallel queries and response processing to Spotify database
