@@ -26,19 +26,18 @@ Main features:
 	
 ---] Sample output ------------------------------------------ [---
 
-black dog ramble on fuel
-	  spotify:track:1r4QUamMkx8zFubdebDbFH black dog
-	  spotify:track:0Hh9YWV4pXiJ7QwmEUpjkP ramble on
-	  spotify:track:2Ef9nSuFrEBlHfXbkp8BkH fuel
+	black dog ramble on fuel
+		spotify:track:1r4QUamMkx8zFubdebDbFH black dog
+		spotify:track:0Hh9YWV4pXiJ7QwmEUpjkP ramble on
+		spotify:track:2Ef9nSuFrEBlHfXbkp8BkH fuel
 
-mama said: orion, welcome home
-	  spotify:track:0xPWcpHa0tJmerVInCccsV mama said
-	  spotify:track:4qGRu4gQo4ILlztsdXoOGQ orion
-	  spotify:track:48Ih1FjoQ5KoCpsdKUk8Eu welcome home 
+	mama said: orion, welcome home
+		spotify:track:0xPWcpHa0tJmerVInCccsV mama said
+		spotify:track:4qGRu4gQo4ILlztsdXoOGQ orion
+		spotify:track:48Ih1FjoQ5KoCpsdKUk8Eu welcome home 
 
-if I can't let it go out of my mind
-	  spotify:track:2mdctbLUgYc2KtQDvGu7cH if i can't
-	  spotify:track:2RqZFOLOnzVmHUX7ZMcaES let it go
-	  spotify:track:3zageWW7Zbqdo0edJI8StA out of my mind
+	if I can't let it go out of my mind
+		spotify:track:2mdctbLUgYc2KtQDvGu7cH if i can't
+		spotify:track:2RqZFOLOnzVmHUX7ZMcaES let it go
+		spotify:track:3zageWW7Zbqdo0edJI8StA out of my mind
 
-	  

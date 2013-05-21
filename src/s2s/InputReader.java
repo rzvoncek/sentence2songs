@@ -73,7 +73,7 @@ public class InputReader extends Thread {
 		List<Track> tracks = splitter.splitToTracks(sentence.toLowerCase());
 
 		for ( Track t : tracks ) {
-			result.append( String.format("\t%38s ",t.getUrl()) );
+			result.append( String.format("\t%36s ",t.getUrl()) );
 			result.append(t.getName() + "\n");
 		}
 		
