@@ -61,7 +61,7 @@ public class SpotifyAdapter {
 	 * @param words
 	 * @return
 	 */
-	public List<Track> fetchTracks (String[] words) {
+	public List<Track> fetchTracks (String setnece, String[] words) {
 		
 		List<Track> result = new ArrayList<Track>();
 		int jobsScheduled = 0;
@@ -93,6 +93,12 @@ public class SpotifyAdapter {
 			prevWord = "";
 
 		}
+
+		// ask fro the whole sentence as well
+		ParallelQueryExec worker = new ParallelQueryExec(this,httpClient,setnece);
+		queryExecExecutorService.submit(worker);
+		jobsScheduled++;
+
 		
 		//  gather the results
 		for (int i=0;i<jobsScheduled;i++) {

@@ -35,7 +35,7 @@ public class SentenceSplitter {
 
 		// pull the song titles from Spotify
 		trackTree.importTracks(
-				spotify.fetchTracks(words));
+				spotify.fetchTracks(sentence, words));
 		
 		SentencePrefix prefix;
 
