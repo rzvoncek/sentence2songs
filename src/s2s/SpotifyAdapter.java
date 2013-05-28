@@ -94,7 +94,7 @@ public class SpotifyAdapter {
 
 		}
 
-		// ask fro the whole sentence as well
+		// ask for the whole sentence as well
 		ParallelQueryExec worker = new ParallelQueryExec(this,httpClient,setnece);
 		queryExecExecutorService.submit(worker);
 		jobsScheduled++;
